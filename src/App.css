@@ -1,0 +1,44 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  overflow: hidden;
+}
+.NameAdress{
+  padding-top: 50vh;
+}
+.ProfilePhoto{
+  width: 15rem;
+}
+
+.ProfilePhoto img{
+  width: 20rem;
+}
+@media screen and (max-width : 600px){
+ 
+  .App{
+    display : flex ;
+    flex-direction : column ;
+    justify-content: center;
+    align-items: center;
+    height : 100%;
+  }
+  .info{
+    display: flex;
+    flex-direction: column;
+  }
+  .NameAdress{
+    
+}
+.adres , .FullName{
+  color : #211e25;
+}
+}
+.info{
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}

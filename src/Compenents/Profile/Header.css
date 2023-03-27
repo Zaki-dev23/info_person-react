@@ -1,0 +1,32 @@
+.f-family{
+    position: sticky;
+    font-family: cursive,sans-serif;
+    height: 80px;
+    padding: 10px 0;
+    top : 0 ;
+}
+.posi{
+    border-radius : 50%;
+    width: 5rem ;
+    margin: auto;
+}
+.addres{
+    text-align: center;
+    margin-left: 2rem;
+    font-size: 2.5vw;
+}
+.FullName{
+    text-align: center;
+    font-size: 15vw;
+    color: #966B9D;
+}
+@media screen and (max-width : 500px){
+    body{
+        height: 200vh;
+        background-color: #252429;
+    }
+   
+}
+.FullName h1 {
+    color : #C98686;
+}
